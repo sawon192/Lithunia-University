@@ -1,0 +1,20 @@
+LITHUANIA GUIDE — NO POSTGRESQL VERSION
+
+This version does not require PostgreSQL, Docker, or a DATABASE_URL.
+
+The university shortlist is stored in the browser's localStorage:
+- It is saved only in the current browser profile on this computer.
+- It is not shared with other counsellors or devices.
+- Clearing browser site data may remove the shortlist.
+
+SETUP ON WINDOWS
+1. Extract this ZIP.
+2. Open Command Prompt in the extracted project folder (the folder containing package.json).
+3. Run: npm install
+4. Run: npm run build
+5. Run: npm run start
+6. Open: http://localhost:3000
+
+You do not need to create a .env file.
+
+If an old copy of the project was previously installed, use the package.json and package-lock.json included here and run npm install again.
